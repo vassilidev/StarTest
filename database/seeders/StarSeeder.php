@@ -26,6 +26,8 @@ class StarSeeder extends Seeder
             I have been developing in PHP for more than 7 years and soon 3 years with Laravel. I started computing before I was 10 and I wrote my first lines of code at 11 for my game server.
             
             I have already built and sold several applications that have saved a lot of time with my clients.',
+
+            'created_at' => now()->addMinute(),
         ]);
     }
 }
